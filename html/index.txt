@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sales Dashobord</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- App -->
+    <div class="app">
+      <input class="mobile-input" type="checkbox" id="mobileButton" />
+
+      <div class="side flex">
+        <div class="mobile-btn">
+          <label class="flex" for="mobileButton">
+            <ion-icon name="grid-outline"></ion-icon>
+          </label>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="sidebar flex-d flex-c">
+          <div class="sidebar-logo flex">
+            <span>N</span>
+          </div>
+
+          <div class="sidebar-center flex flex-c">
+            <div class="icon flex">
+              <ion-icon name="filter-circle-outline"></ion-icon>
+            </div>
+            <div class="icon flex">
+              <ion-icon name="mail-unread-outline"></ion-icon>
+            </div>
+            <div class="icon flex">
+              <ion-icon name="time-outline"></ion-icon>
+            </div>
+            <div class="icon flex">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+          </div>
+
+          <div class="sidebar-bottom flex flex-c">
+            <div class="icon flex">
+              <ion-icon name="cog-outline"></ion-icon>
+            </div>
+            <div class="icon flex">
+              <ion-icon name="bug-outline"></ion-icon>
+            </div>
+          </div>
+        </div>
+        <!-- End Sidebar -->
+      </div>
+
+      <!-- Main Content -->
+      <div class="main flex-d flex-c">
+        <div class="main-top flex-d">
+          <h2>Sales Dashboard</h2>
+
+          <div class="main-top-left flex">
+            <div class="search flex">
+              <ion-icon name="search-outline" class="icon-btn"></ion-icon>
+              <input type="text" placeholder="Search" />
+            </div>
+
+            <div class="icon flex">
+              <ion-icon name="notifications-outline"></ion-icon>
+            </div>
+
+            <div class="user flex">
+              <ion-icon
+                name="person-circle-outline"
+                class="icon-btn"
+              ></ion-icon>
+              <h4>Neha Joshi</h4>
+            </div>
+          </div>
+        </div>
+        <div class="main-bottom flex-d">
+          <div class="main-bottom-left flex flex-c">
+            <div class="graph">
+              <img src="img/graph.png" alt="" />
+              <a href="#" class="btn">See Details</a>
+            </div>
+
+            <div class="stats flex-d">
+              <div class="top-selling">
+                <div class="head flex-d">
+                  <h2>Top selling Cryptocurrency</h2>
+                  <p>7 days</p>
+                </div>
+
+                <div class="flex-d">
+                  <div class="details flex-d">
+                    <div class="table">
+                      <div class="row flex-d">
+                        <h4>Name</h4>
+                        <p>Bitcoin</p>
+                      </div>
+
+                      <div class="row flex-d">
+                        <h4>Price</h4>
+                        <p>$17020.50</p>
+                      </div>
+
+                      <div class="row flex-d">
+                        <h4>Sales</h4>
+                        <p>27</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product">
+                    <img src="img\bitcoin.png" alt="" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="customers">
+                <h2>Customer</h2>
+                <div class="country flex">
+                  <span class="blue"></span>
+                  <h4>Europe</h4>
+                  <p>79%</p>
+                </div>
+
+<div class="country flex">
+                  <span class="red"></span> 
+                  <h4>India</h4>
+                  <p>65%</p>
+                </div>
+		 <div class="country flex">
+                  <span class="green"></span>
+                  <h4>Asia</h4>
+                  <p>52%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main-bottom-right flex-d flex-c">
+            <div class="orders">
+              <h2>Recent Orders</h2>
+              <div class="order flex-d">
+		 <ion-icon class="icon-btn" name="logo-bitcoin"></ion-icon>
+            	<p>Bitcoin</p>
+                <p class="price">$17020.50</p>
+              </div>
+	
+              <div class="order flex-d">
+		<ion-icon class="icon-btn" name="logo-ethereum"></ion-icon>
+            	<p>Ethereum</p>
+               <p class="price">$1291.00</p>
+              </div>
+
+              <div class="order flex-d">
+                <ion-icon class="icon-btn" name="logo-dogecoin"></ion-icon>
+                <p>Dogecoin</p>
+                <p class="price">$0.100</p>
+              </div>
+
+              
+
+            <div class="plans flex flex-c">
+              <h2>Weekly Plan</h2>
+              <div class="progress-bar flex">49%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Main Content -->
+    </div>
+    <!-- End App -->
+
+    <!-- Ion Icons Js -->
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"
+    ></script>
+  </body>
+</html>
